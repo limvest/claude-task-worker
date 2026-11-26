@@ -1,0 +1,6 @@
+interface:
+  display_name: "Claude Task Worker"
+  short_description: "Give Claude one task; retain project context in Codex"
+  default_prompt: "Use $claude-task-worker to keep the full project context in Codex and give Claude one bounded task per fresh session, with only necessary inputs and no project or conversation history."
+policy:
+  allow_implicit_invocation: true
